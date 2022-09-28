@@ -1,0 +1,60 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: url(alexander-popov-WhR71MUSJmI-unsplash.jpg) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 60%;
+    height: 250px;
+    background: #000;
+    border-radius: 30px;
+    box-shadow: 0 0 5px white;
+}
+
+#timer {
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 35px;
+    color: white;
+}
+
+.buttons {
+    text-align: center;
+
+}
+
+button {
+    margin: 0 10px;
+    border: none;
+}
+
+button i {
+    font-size: 2rem;
+    padding: 10px;
+    cursor: pointer;
+    transition: .3s;
+    width: 50px;
+}
+
+#play{
+    background-color: rgb(4, 71, 4);
+}
+#pause{
+    background-color: orangered;
+}
+#reset{
+    background-color: rgb(104, 5, 5);
+}
